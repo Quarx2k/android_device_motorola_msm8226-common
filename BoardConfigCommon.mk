@@ -51,7 +51,6 @@ TARGET_KERNEL_SOURCE := kernel/motorola/kernel-moto-g
 AUDIO_FEATURE_DISABLED_ANC_HEADSET := true
 AUDIO_FEATURE_DISABLED_DS1_DOLBY_DDP := true
 AUDIO_FEATURE_DISABLED_SSR := true
-BOARD_HAVE_QCOM_FM := true
 BOARD_USES_ALSA_AUDIO := true
 TARGET_QCOM_AUDIO_VARIANT := caf
 
@@ -77,9 +76,6 @@ USE_OPENGL_RENDERER := true
 
 # Encryption
 TARGET_HW_DISK_ENCRYPTION := true
-
-# Init
-TARGET_NR_SVC_SUPP_GIDS := 28
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
@@ -169,13 +165,11 @@ endif
 # Time services
 BOARD_USES_QC_TIME_SERVICES := true
 
-# USB
-TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/msm_hsusb/gadget/lun%d/file
-
 # Vold
 BOARD_VOLD_DISC_HAS_MULTIPLE_MAJORS := true
 BOARD_VOLD_EMMC_SHARES_DEV_MAJOR := true
 BOARD_VOLD_MAX_PARTITIONS := 40
+TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/msm_hsusb/gadget/lun%d/file
 
 # Wifi
 BOARD_HAS_QCOM_WLAN := true
