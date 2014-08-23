@@ -83,7 +83,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.apm_sim_not_pwdn=1 \
     persist.radio.dfr_mode_set=1 \
     persist.radio.msgtunnel.start=false \
-    persist.radio.no_wait_for_card=1
+    persist.radio.no_wait_for_card=1 \
+    persist.call_recording.enabled=1
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.use_data_netmgrd=true
