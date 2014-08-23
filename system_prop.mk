@@ -1,14 +1,14 @@
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
-    audio.offload.24bit.enable=false \
+    audio.offload.24bit.enable=true \
     audio.offload.buffer.size.kb=32 \
-    audio.offload.gapless.enabled=false \
-    audio.offload.multiple.enabled=false \
+    audio.offload.gapless.enabled=true \
+    audio.offload.multiple.enabled=true \
     audio.offload.pcm.enable=true
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    av.offload.enable=false \
-    av.streaming.offload.enable=false
+    av.offload.enable=true \
+    av.streaming.offload.enable=true
 
 PRODUCT_PROPERTY_OVERRIDES += \
     mm.enable.smoothstreaming=true
@@ -96,3 +96,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.qc.sub.rdump.on=1 \
     persist.sys.ssr.restart_level=3
+
+# CMUpdater
+PRODUCT_PROPERTY_OVERRIDES += \
+	cm.updater.uri=http://api.quarx.cm-for.us/api
+
