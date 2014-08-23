@@ -17,6 +17,8 @@ etc/Handset_cal.acdb
 etc/Hdmi_cal.acdb
 etc/Headset_cal.acdb
 etc/Speaker_cal.acdb
+lib/hw/audio.primary.msm8226.so
+lib/libmotaudioutils.so
 vendor/lib/libacdbloader.so
 vendor/lib/libacdbrtac.so
 vendor/lib/libadiertac.so
@@ -215,7 +217,7 @@ bin/hardware_revisions.sh
 bin/refuse
 
 # Perf
-bin/mpdecision
+#bin/mpdecision
 vendor/lib/libqc-opt.so
 
 # Postprocessing
