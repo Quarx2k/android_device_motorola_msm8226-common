@@ -101,4 +101,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # CMUpdater
 PRODUCT_PROPERTY_OVERRIDES += \
 	cm.updater.uri=http://api.quarx.cm-for.us/api
+# KSM
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.ksm.default=1
 
